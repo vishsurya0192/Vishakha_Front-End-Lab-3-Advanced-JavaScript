@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  flex: 1 1 100%;
+  display: flex;
+  padding: 25px 25px 50px;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  
+}
+
+#temperature {
+  color: rgba(255,255,255,0.7);
+  font-weight: 800;
+  font-size: 100px;
+  text-shadow: 2px 8px rgba(0, 0, 0, 0.7);
+  margin: 25px 0px;
+}
+
+.temperature span {
+  font-weight: 400;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('weather-bg.jpg');
+  background-size: cover;
+  background-position: top center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  padding: 40px 10px 10px;
+  align-items: center;
+}
+
+header input {
+  width: 100%;
+  padding: 10px 15px;
+  max-width: 250px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 15px 0px 15px 0px;
+  border-bottom: 3px solid orangered;
+  color: #323132;
+  font-size: 20px;
+  font-weight: 400;
+  transition: 0.2s ease-out;
+}
+
+header input:focus {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+#app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.6));
+}
+
+#city {
+  color: rgba(255,255,255,0.7);
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+#date {
+  color: rgba(255,255,255,0.7);
+  font-size: 20px;
+}
+
+#temperature {
+  color: rgba(255,255,255,0.7);
+  font-size: 100px;
+  font-weight: 800;
+  margin: 25px 0px;
+  text-shadow: 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+#temperature span {
+  font-weight: 400;
+}
+
+#weather {
+  color: rgba(255,255,255,0.7);
+  font-size: 32px;
+  font-weight: 600;
+  font-style: normal;
+  margin-bottom: 15px;
+  text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
+}
+
+#hi-low {
+  color: rgba(255,255,255,0.7);
+  font-size: 24px;
+  font-weight: 400;
+  text-shadow: 0px 3px rgba(0, 0, 0, 0.6);
+}
+
+#degree {
+  color: rgba(255,255,255,0.7);
+  font-size: 80px;
+  font-weight: 800;
+}
